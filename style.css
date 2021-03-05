@@ -1,0 +1,127 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+
+body {
+  background-color: grey; 
+}
+.circle {
+width: 400px;
+height: 400px;
+background-color: rgb(145, 148, 160);
+top: 200px;
+left: 200px;
+border-radius: 50%;
+}
+.circle-2 {
+width: 230px;
+height: 230px;
+background-color: rgb(173, 176, 194);
+top: 285px;
+left: 285px;
+border-radius: 50%;
+-webkit-box-shadow: 0px 7px 6px 28px rgba(64,61,66,0.77); 
+box-shadow: 0px 7px 6px 28px rgba(64,61,66,0.77);
+}
+.square {
+width: 70px;
+height: 95px;
+background: linear-gradient(90deg, rgba(121,9,9,1) 20%, rgba(255,87,0,1) 100%);
+top: 350px;
+left: 360px;
+transform: rotate(45deg) scale(0.5, 2);
+border-radius: 40%;
+}
+.screen {
+width: 300px;
+height: 200px;
+background: rgb(70, 67, 67);
+top: 100px;
+left: 1080px;
+border-radius: 40px;
+animation: move 1s infinite alternate;
+}
+   
+.button {
+width: 60px;
+height: 60px;
+background-color: rgb(173, 176, 194);
+top: 300px;
+left: 930px;
+border-radius: 50%;
+-webkit-box-shadow: 0px 2px 9px 8px rgba(64,61,66,0.77); 
+box-shadow: 0px 2px 9px 8px rgba(64,61,66,0.77);
+}
+.button-2 {
+    width: 60px;
+height: 60px;
+background-color: rgb(173, 176, 194);
+top: 200px;
+left: 930px;
+border-radius: 50%;
+-webkit-box-shadow: 0px 2px 9px 8px rgba(64,61,66,0.77); 
+box-shadow: 0px 2px 9px 8px rgba(64,61,66,0.77);
+}
+.button-3 {
+    width: 60px;
+height: 60px;
+background-color: rgb(173, 176, 194);
+top: 100px;
+left: 930px;
+border-radius: 50%;
+-webkit-box-shadow: 0px 2px 9px 8px rgba(64,61,66,0.77); 
+box-shadow: 0px 2px 9px 8px rgba(64,61,66,0.77);
+}
+
+.button-4 {
+    width: 60px;
+height: 60px;
+background-color: rgb(173, 176, 194);
+top: 400px;
+left: 930px;
+border-radius: 50%;
+-webkit-box-shadow: 0px 2px 9px 8px rgba(64,61,66,0.77); 
+box-shadow: 0px 2px 9px 8px rgba(64,61,66,0.77);
+}
+.button-5 {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(173, 176, 194);
+    top: 500px;
+    left: 885px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 2px 9px 8px rgba(64,61,66,0.77); 
+    box-shadow: 0px 2px 9px 8px rgba(64,61,66,0.77);
+
+}
+
+@keyframes move {
+    from{
+filter: blur(1px);
+    } to {
+filter: blur(20px);
+
+    }  
+}
+.button-6 {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(173, 176, 194);
+    border: 5px solid rgb(0, 0, 0);
+    top: 495px;
+    left: 1085px;
+    border-radius: 50%;
+   
+
+}
+
+
